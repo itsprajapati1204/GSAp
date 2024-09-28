@@ -1,0 +1,2 @@
+To - form intial to final
+from - it is used for final to intal postion

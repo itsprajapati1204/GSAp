@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.page1{
+  height: 50rem;
+  width:100%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2{
+  height: 50rem;
+  width:100%;
+  background-color: rgb(5, 143, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box{
+  height: 300px;
+  width:300px;
+  background-color: brown;
+
+}
