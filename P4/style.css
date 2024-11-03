@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #d5ff3f;
+}
+main {
+  padding-inline: 3rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  font-family: "Fredoka";
+  margin-left: 10px;
+}
+.navbar .logo h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.navbar .tags a {
+  margin: 0 4rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
+}
+.hero #herosec1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 200px;
+}
+
+.hero #herosec1 h1 {
+  font-size: 21vh;
+  text-transform: uppercase;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 250px;
+}
+#herosec1 #videotag {
+  height: 12vh;
+  width: 24vw;
+  background-color: black;
+  border-radius: 50px;
+  background-image: url(/image/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 4px;
+}
+#videotag .play {
+  height: 11vh;
+  width: 11vh;
+  background-color: rgb(0, 0, 0);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play i {
+  font-size: 50px;
+  color: #d5ff3f;
+}
+
+/* hero section 2 */
+.hero #herosec2 {
+  display: flex;
+  gap: 400px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hero #herosec2 h1 {
+  font-size: 21vh;
+  text-transform: uppercase;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 10px;
+}
+.hero #herosec2 p {
+  font-family: "Fredoka";
+  /* text-transform: uppercase; */
+  width: 27vw;
+  font-size: 20px;
+  font-weight: 300;
+}
+/* section 3 */
+.sec3 {
+  height: 20vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.sec3 a {
+  text-decoration: none;
+  border: 2px solid #5d5d5d;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-size: 17px;
+  font-family: "Fredoka";
+  color: #615b5b;
+}
+.sec3 a i {
+  color: #343434;
+}
+.sec3 svg {
+  display: flex;
+  margin-top: 130px;
+  gap: 0;
+}
+/* sec4 */
+.sec4 {
+  height: 80vh;
+  width: 100%;
+}
+.sec4 .imgbg {
+  width: 100%;
+  height: 80vh;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  background-color: #000000;
+  background-image: url(/image/bg2.jpg);
+}
+.sec4 .arrow {
+  height: 20vh;
+  width: 20vh;
+  background-color: #000000;
+  position: relative;
+  top: -10%;
+  left: 80%;
+  border-radius: 50%;
+  border: 4px solid rgb(186, 182, 182);
+  padding: 25px;
+}
+.arrow i {
+  font-size: 5rem;
+  color: #d5ff3f;
+}
+/* ctasec1 */
+
+.ctasec1 {
+  height: 20vh;
+  width: 100%;
+  background-color: #101010;
+  font-size: 3.5vh;
+  color: #d5ff3f;
+  display: flex;
+  align-items: center;
+  padding-inline: 2rem;
+  font-family: "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  gap: 90px;
+}
+.ctasec1 h1 {
+  font-weight: 300;
+}
+/* #ctasec1 .m1{
+  display: inline-block;
+  animation-name: mobe;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes mobe {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+} */
+
+/* sec5 */
+.sec5 {
+  height: 30vh;
+  width: 100%;
+  background-color: #171717;
+}
+.sec5 .topsec {
+  display: flex;
+  gap: 200px;
+  padding-inline: 4em;
+  align-items: baseline;
+}
+.sec5 .topsec h1 {
+  font-size: 10vh;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+.topsec a {
+  text-decoration: none;
+  border: 2px solid #5d5d5d;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-size: 17px;
+  font-family: "Fredoka";
+  color: #615b5b;
+  margin-right: 20px;
+}
+.sec5 .bottomsec {
+  display: flex;
+  margin-top: 15px;
+  gap: 300px;
+}
+.sec5 .bottomsec p {
+  color: white;
+  padding-inline: 5rem;
+  font-family: "Inter";
+  line-height: 1.7rem;
+}
+.sec5 .bottomsec a {
+  text-decoration: none;
+  border: 2px solid #5d5d5d;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-size: 17px;
+  font-family: "Fredoka";
+  color: #615b5b;
+  margin-right: 20px;
+}
+.bottomsec a:hover {
+  color: white;
+  border: 2px solid white;
+}
+.topsec a:hover {
+  color: white;
+  border: 2px solid white;
+}
+.topsec span {
+  color: #d5ff3f;
+}
+/* section 6 */
+.sec6 {
+  height: 100vh;
+  width: 100%;
+  background-color: #171717;
+  padding-inline: 5rem;
+}
+.sec6 .item1 {
+  display: flex;
+  gap: 800px;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(166, 161, 161);
+  font-family: Inter;
+  height: 15vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 2rem;
+}
+.sec6 .item2 {
+  display: flex;
+  gap: 835px;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(166, 161, 161);
+  font-family: Inter;
+  height: 15vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 2rem;
+}
+.sec6 .item3 {
+  display: flex;
+  gap: 795px;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(166, 161, 161);
+  font-family: Inter;
+  height: 15vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 2rem;
+}
+.sec6 .item4 {
+  display: flex;
+  gap: 735px;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(166, 161, 161);
+  font-family: Inter;
+  height: 15vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 2rem;
+}
+.sec6 .item2 i {
+  font-size: 4.5rem;
+}
+.sec6 .item1 i {
+  font-size: 4.5rem;
+}
+.sec6 .item3 i {
+  font-size: 4.5rem;
+}
+.sec6 .item4 i {
+  font-size: 4.5rem;
+}
+.sec6 .item1 span {
+  font-size: 5rem;
+  color: #d5ff3f;
+}
+.sec6 .item1:hover {
+  color: white;
+}
+.sec6 .item2 span {
+  font-size: 5rem;
+  color: #d5ff3f;
+}
+.sec6 .item2:hover {
+  color: white;
+}
+.sec6 .item3 span {
+  font-size: 5rem;
+  color: #d5ff3f;
+}
+.sec6 .item3:hover {
+  color: white;
+}
+.sec6 .item4 span {
+  font-size: 5rem;
+  color: #d5ff3f;
+}
+.sec6 .item4:hover {
+  color: white;
+}
+/* section7 */
+
+.sec7 {
+  height: 110vh;
+  width: 100%;
+  background-color: #101010;
+}
+.sec7-txt {
+  height: 90vh;
+  width: 90%;
+  background-color: #343434;
+  position: relative;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  font-size: 6vh;
+  font-family: "Inter";
+  padding: 3rem 8rem;
+  color: rgb(202, 197, 197);
+}
+
+.sec7-txt .line4 i {
+  background-color: #d5ff3f;
+  color: #101010;
+  padding: 0 10px;
+  border-radius: 40px;
+  font-size: 4rem;
+}
+.sec7-txt .line1 i {
+  color: #d5ff3f;
+  padding: 0 10px;
+  border-radius: 40px;
+  font-size: 5rem;
+}
+.sec7-txt .line1 img {
+  height: 9vh;
+  width: 30vh;
+  border-radius: 40px;
+}
+.sec8 {
+  height: 20vh;
+  width: 100%;
+  color: white;
+  background-color: #101010;
+  padding-inline: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+.sec8 h1 {
+  font-size: 12vh;
+  font-weight: 300;
+  font-family: "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  color: #fcf3f3;
+}
+.sec8 h1 span {
+  color: #d5ff3f;
+}
+.sec8 p {
+  width: 28vw;
+  font-size: 1.2rem;
+  font-family: "Fredoka";
+  color: #a7a2a2;
+}
+.subsec8 {
+  height: 10vh;
+  width: 100%;
+  background-color: #101010;
+  padding-inline: 5rem;
+}
+.subsec8 a {
+  text-decoration: none;
+  border: 2px solid #5d5d5d;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-size: 17px;
+  font-family: "Fredoka";
+  color: #615b5b;
+  margin-right: 20px;
+}
+.subsec8 a:hover {
+  color: white;
+  border: 2px solid white;
+}
+/* sec-9 */
+
+.sec9 {
+  height: 90vh;
+  width: 100%;
+  background-color: #101010;
+  padding-inline: 15rem;
+}
+.sec9-1 {
+  display: flex;
+  gap: 20px;
+}
+.sec9-1 .sec9sub1 {
+  height: 40vh;
+  width: 50vh;
+  background-color: white;
+  background-image: url(/image/im1.jpg);
+}
+.sec9-1 .sec9sub2 {
+  height: 40vh;
+  width: 95vh;
+  background-color: white;
+  background-image: url(/image/im2.jpg);
+}
+.sec9-2 {
+  margin-top: 30px;
+  gap: 20px;
+  display: flex;
+}
+.sec9-2 .sec9sub21 {
+  height: 40vh;
+  width: 50vh;
+  background-color: white;
+  background-image: url(/image/im4.jpg);
+  background-size: cover;
+}
+.sec9-2 .sec9sub22 {
+  height: 40vh;
+  width: 50vh;
+  background-color: white;
+  background-image: url(/image/im3.jpg);
+  background-size: cover;
+}
+.sec9-2 .sec9sub23 {
+  height: 40vh;
+  width: 50vh;
+  background-color: white;
+  background-image: url(/image/bg1.jpg);
+  background-size: cover;
+  border-bottom-right-radius: 50px;
+  filter: grayscale(10%);
+}
+.sec9-2 .sec9sub23 h2 {
+  font-size: 2.5rem;
+  color: #fcf3f3;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  position: relative;
+  top: 30%;
+  left: 8%;
+}
+.sec9-2 .sec9sub23 p {
+  font-size: 1rem;
+  color: #fcf3f3;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+.sec9-2 .sec9sub23 i {
+  position: relative;
+  top: 0;
+  left: 76.5%;
+  background-color: #d5ff3f;
+  color: black;
+  font-size: 5rem;
+}
+.sec10 {
+  background-color: #101010;
+  padding-inline: 15rem;
+}
+.sec10 .finalsec {
+  height: 80vh;
+  width: 100%;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+
+  background-color: #d5ff3f;
+}
+.sec10 .finalsec .finaltxt {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  line-height: 6rem;
+  padding-top: 230px;
+}
+.finalsec .finalbtn a {
+  position: relative;
+  left: 35%;
+  line-height: 7rem;
+  text-decoration: none;
+  border: 2px solid #5d5d5d;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-size: 17px;
+  font-family: "Fredoka";
+  text-transform: uppercase;
+  
+}
+
+.finalbtn a{
+  color: #d5ff3f;
+}
+.finalbtn .icon1{
+  background-color: #171717;
+  
+}
+.finalbtn .icon2{
+ color: #000000;
+  
+}
+.credit-sec{
+  height: 10vh;
+  width:100%;
+  background-color: #101010;
+  color: #d5ff3f;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+}
+.credit-sec h3{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding-inline: 2.5rem;
+}
